@@ -1,9 +1,18 @@
+.classpath
+/.buildpath
+.project
+/.settings/
+/.idea
 *.iml
-.gradle
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
-.DS_Store
+/out
+bin/**
+proguard_logs/**
+**/crashlytics.properties
 /build
-/captures
-.externalNativeBuild
+
+# Gradle cache
+.gradle
+
+# Local configuration file (sdk path, etc)
+local.properties
+
