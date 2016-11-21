@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="horizontal">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="horizontal">
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="6">
+
+            <Space
+                android:layout_columnSpan="2"
+                />
+
+            <Button
+                android:layout_columnSpan="4"
+                android:layout_rowSpan="1"
+                android:text="H"
+                />
+
+            <Space
+                android:layout_columnSpan="2"
+                />
+
+            <Button
+                android:layout_columnSpan="4"
+                android:layout_rowSpan="1"
+                android:text="I"
+                />
+
+            <Button
+                android:text="M"
+                />
+
+            <Button
+                android:text="A"
+                />
+
+            <Button
+                android:text="K"
+                />
+
+            <Button
+                android:text="E"
+                />
+
+            <Button
+                android:text="R"
+                />
+
+            <Button
+                android:text="s"
+                />
+
+
+            <Space
+                android:layout_columnSpan="2"
+                />
+
+            <Button
+                android:layout_columnSpan="4"
+                android:layout_rowSpan="1"
+                android:text="M"
+                />
+
+            <Space
+                android:layout_columnSpan="2"
+                />
+
+            <Button
+                android:text="A"
+                />
+
+            <Button
+                android:text="N"
+                />
+
+            <Button
+                android:text="A"
+                />
+
+            <Button
+                android:text="K"
+                />
+
+            <Space
+                android:layout_columnSpan="2"
+                />
+
+            <Button
+                android:text="T"/>
+
+            <Space
+                android:layout_columnSpan="2"
+                />
+
+            <Button
+                android:text="O"/>
+
+            <Space
+                android:layout_columnSpan="5"
+                />
+
+            <Button
+                android:text="T"/>
+
+            <Space
+                android:layout_columnSpan="5"
+                />
+
+            <Button
+                android:text="A"/>
+        </GridLayout>
+    </HorizontalScrollView>
+</LinearLayout>
