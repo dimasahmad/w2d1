@@ -20,8 +20,9 @@
             android:hint="username"
             />
 
-        <EditText
+        <android.support.v7.widget.AppCompatEditText
             android:layout_width="match_parent"
+            android:elevation="10dp"
             android:layout_height="wrap_content"
             android:hint="password"/>
 
@@ -37,9 +38,10 @@
                 android:layout_weight="1"
                 android:text="login"/>
 
-            <Button
+            <android.support.v7.widget.AppCompatButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:elevation="10dp"
                 android:layout_weight="1"
                 android:text="register"/>
         </LinearLayout>
@@ -74,7 +76,7 @@
             android:src="@android:drawable/star_big_on"/>
 
 
-        <ImageView
+        <android.support.v7.widget.AppCompatImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@android:drawable/star_big_off"/>

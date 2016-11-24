@@ -15,6 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:name=".AnimationActivity"/>
+        <activity android:name=".DynamicActivity">
+        </activity>
+        <activity android:name=".GradientActivity">
+        </activity>
     </application>
 
 </manifest>
