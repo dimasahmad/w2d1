@@ -40,4 +40,11 @@
         android:onClick="gradient"
         android:text="gradient"/>
 
+    <Button
+        android:id="@+id/button_cardflip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="cardFlip"
+        android:text="Card Flip"/>
+
 </LinearLayout>

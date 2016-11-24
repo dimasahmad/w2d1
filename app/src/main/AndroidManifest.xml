@@ -16,10 +16,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".AnimationActivity"/>
-        <activity android:name=".DynamicActivity">
-        </activity>
-        <activity android:name=".GradientActivity">
-        </activity>
+        <activity android:name=".DynamicActivity"/>
+        <activity android:name=".GradientActivity"/>
+        <activity android:name=".CardFlipActivity"/>
     </application>
 
 </manifest>

@@ -35,4 +35,9 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, GradientActivity.class);
         startActivity(intent);
     }
+
+    public void cardFlip(View view) {
+        Intent intent = new Intent(this, CardFlipActivity.class);
+        startActivity(intent);
+    }
 }
